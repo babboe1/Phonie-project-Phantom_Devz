@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>phonie | Phantom devz</title>
+		<link
+			rel="icon"
+			href="./assets/Icons/favicon.png"
+			sizes="32x32"
+			type="image/x-icon"
+		/>
+		<link type="text/css" rel="stylesheet" href="./assets/styles/style.css" />
+		<script src="./assets/Script/app.js" defer></script>
+	</head>
+	<body>
+		<div id="backdrop" class="hidden"></div>
+		<section class="container">
+			<div class="container__text">
+				<h1 class="main-heading">
+					Learn To Solve Problems With Code together with Phantom_devz
+				</h1>
+
+				<p class="main-text">
+					Phantom_Devz is a team of young, cheerful and dedicated software
+					engineers ranging from Frontend, Backend and Cloud Engineers who
+					are working tirelessly to be amongst the World's Best. To be a
+					member, fill the form and verify your network provider. We can't
+					wait to have you!
+				</p>
+
+				<label for="first-name" class="label-text"> Get Started </label>
+			</div>
+			<div class="container__form">
+				<h2 class="form-title">
+					Phantom_Devz <br />
+					membership form
+				</h2>
+
+				<form action="#" id="form-content" class="form-content">
+					<div class="Full-name-group">
+						<div class="first-name-input form-box">
+							<div class="input-content-box">
+								<input
+									type="text"
+									name="first-name"
+									id="first-name"
+									placeholder="First Name"
+									autocomplete="off"
+								/>
+
+								<div id="error-icon1" class="hidden">
+									<img src="./assets/Icons/icon-error.svg" alt="" />
+								</div>
+							</div>
+							<span id="ERROR_TEXT1" class="form__error-msg hidden"
+								>First name cannot be empty</span
+							>
+						</div>
+						<div class="last-name-input form-box">
+							<div class="input-content-box">
+								<input
+									type="text"
+									name="last-name"
+									id="last-name"
+									placeholder="Last Name"
+									autocomplete="off"
+								/>
+
+								<div id="error-icon2" class="hidden">
+									<img src="./assets/Icons/icon-error.svg" alt="" />
+								</div>
+							</div>
+							<span id="ERROR_TEXT2" class="form__error-msg hidden"
+								>Last name cannot be empty</span
+							>
+						</div>
+					</div>
+
+					<div class="form__input-email form-box">
+						<div class="input-content-box">
+							<input
+								type="text"
+								name="email"
+								id="email"
+								placeholder="Email Address"
+								autocomplete="off"
+							/>
+
+							<div id="error-icon3" class="hidden">
+								<img src="./assets/Icons/icon-error.svg" alt="" />
+							</div>
+						</div>
+						<span id="ERROR_TEXT3" class="form__error-msg hidden"
+							>looks like this is not an email</span
+						>
+					</div>
+
+					<div class="form__input-content">
+						<h2 class="phone-title">Check your Provider</h2>
+
+						<div class="restricted-num-grp">
+							<div class="provider-all">
+								<span class="auto">Auto</span>
+							</div>
+
+							<div class="provider-grp">
+								<div class="">
+									<img
+										src="./assets/Icons/airtel-nigeria.svg"
+										class="white"
+										alt="airtel-logo"
+									/>
+								</div>
+								<span class="provider-text hidden">Airtel</span>
+							</div>
+
+							<div class="provider-grp">
+								<div class="">
+									<img
+										src="./assets/Icons/9mobile.svg"
+										class="white"
+										alt="9mobile-logo"
+									/>
+								</div>
+								<span class="provider-text hidden">9mobile</span>
+							</div>
+
+							<div class="provider-grp">
+								<div class="">
+									<img
+										src="./assets/Icons/globacom-limited.svg"
+										alt="glo-logo"
+									/>
+								</div>
+								<span class="provider-text hidden">Glo</span>
+							</div>
+
+							<div class="provider-grp">
+								<div class="">
+									<img src="./assets/Icons/mtn.svg" alt="mtn-logo" />
+								</div>
+								<span class="provider-text hidden">Mtn</span>
+							</div>
+						</div>
+
+						<div class="form-box">
+							<div class="input-grp">
+								<input
+									type="number"
+                           min="0"
+									name="number"
+									id="number"
+									placeholder="Mobile Number"
+									autocomplete="off"
+									required
+								/>
+								<div class="form-logo">
+									<img
+										id="true-icon"
+										src=""
+										alt=""
+										class="input-logo"
+									/>
+								</div>
+							</div>
+
+							<ul class="form-list"></ul>
+
+							<span id="ERROR_TEXT4" class="form__error-msg hidden"
+								>Phone number not found!!</span
+							>
+						</div>
+					</div>
+
+					<input type="submit" value="Subscribe" id="submit" />
+				</form>
+			</div>
+		</section>
+
+		<!-- modal -->
+		<div class="gratitude">
+			<div class="gratitude__image-box">
+				<img
+					src="./assets/images/gratituide.gif"
+					alt="Logo"
+					class="gratitude__image"
+				/>
+			</div>
+			<div class="gratitude__btn-box">
+				<button class="gratitude__button label-text" type="submit">
+					Got It!
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
