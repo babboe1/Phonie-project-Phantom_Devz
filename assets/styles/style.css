@@ -382,10 +382,6 @@ input[type=number] {
 @media screen and (min-width: 1024px) {
 	body {
 		border-radius: 20px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		max-width: 1440px;
 	}
 
@@ -429,5 +425,9 @@ input[type=number] {
 @media screen and (min-width: 1440px) {
 	body {
 		padding: 0 2rem;
+      position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 }

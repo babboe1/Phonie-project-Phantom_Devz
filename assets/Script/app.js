@@ -3,7 +3,7 @@ const GRATITUDE = document.querySelector('.gratitude');
 const GRATITUDE_BTN = document.querySelector('.gratitude__button');
 const FORM = document.getElementById('form-content');
 const [FIRST_NAME, LAST_NAME, EMAIL, PHONE] =
-	document.getElementsByTagName('input');
+   document.getElementsByTagName('input');
 const TRUE_ICON = document.getElementById('true-icon');
 const PROVIDER_GRP = document.querySelectorAll('.provider-grp');
 const [Airtel, Etisalat, Glo, Mtn] = document.querySelectorAll('.provider-grp');
