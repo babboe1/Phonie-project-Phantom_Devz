@@ -53,7 +53,8 @@ After inputting the phone number in the form field, the UI(user interface) stipu
 Below is a video preview of the features on The Phonie Project,
 A link to a full explanatory video will; be shared at the end of the article, Enjoy!!!
 
-<iframe width="768" height="400" src="https://www.youtube-nocookie.com/embed/UpWaJ8f12ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://user-images.githubusercontent.com/67319772/191020725-212b543b-60cb-4869-b6b0-1ee4ac879e5f.mp4
+
 ### Links
 - Link to GitHub repository: [The Phonie Project Repo](https://github.com/babboe1/Phonie-project-Phantom_Devz)
 - Project live link: [The Phonie Project](https://phantom-devz-phonie.netlify.app/)
